@@ -1,16 +1,29 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+#Write a class named "Phone". The Phone class should
+#have an attribute called "storage" which defaults to
+#128, and an attribute called "color" which defaults
+#to "red".
+#
+#Hint: 'attribute' is another common word for
+#'instance variable'.
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+#Write your class here!
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+
+#Below are some lines of code that will test your function.
+#You can change the value of the variable(s) to test your
+#function with different inputs.
+#
+#If your function works correctly, this will originally
+#print 128 and red, each on a separate line.
+class Phone:
+    def __init__(self):
+        self.storage = 128
+        self.color = "red"
+
+new_phone = Phone()
+print(new_phone.storage)
+print(new_phone.color)
+
+
